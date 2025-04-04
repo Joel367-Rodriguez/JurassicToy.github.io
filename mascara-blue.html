@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máscara de Blue</title>
+    <link rel="icon" href="img/JT Icono.png">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .contenedor {
+            display: flex;
+            align-items: flex-start; 
+            justify-content: flex-start; 
+        }
+
+        .imagen {
+            margin-right: 20px; 
+        }
+
+        .texto {
+            text-align: left; 
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            background-color: none;
+            padding: 10px 20px;
+        }
+
+        /* Estilo para el logo */
+        .logo img {
+            width: 100px; 
+            height: auto;
+        }
+
+        /* Estilo de la barra de navegacion */
+        .navbar {
+            display: flex;
+            background-color: none;
+            gap: 20px;
+        }
+
+        /* Estilo de los enlaces de la barra de navegacion */
+        .navbar a {
+            color: white;
+            padding: 14px 45px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 16px;
+            padding: 8px 45px;
+        }
+
+        /* Cambiar el color cuando paso el mouse */
+        .navbar a:hover {
+            background-color: #35a8e0;
+            color: #04275b;
+        }
+
+        .diseño {
+            background-color: lime;
+            height: 50px;
+            width: auto;
+            border-radius: 100px;
+        }
+
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <br>
+    <nav>
+        <div class="logo">
+            <img src="img/JT Icono.png" usemap="#image-map">
+
+            <map name="image-map">
+                <area target="" alt="Logo" title="Logo" href="index.html" coords="28,29,459,463" shape="rect">
+            </map>
+        </div>
+
+        <div class="navbar">
+            <b><a href="index.html">Inicio</a></b>
+            <b><a href="figuras.html">Figuras</a></b>
+            <b><a href="peluches.html">Peluches</a></b>
+            <b><a href="legos.html">Legos</a></b>
+            <b><a href="mascaras.html">Máscaras</a></b>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <div class="contenedor">
+        <img src="img/Imagenes/Mascara de Blue 2.jpg" height="300" alt="Imagen" class="imagen">
+        <div class="texto">
+            <h1>Jurassic World Máscara de Velociraptor Blue</h1>
+            <p>¡Conviértete en un temible cazador con la Jurassic World Máscara de Velociraptor Blue!  
+                ¡Embárcate en una aventura jurásica llena de acción con la increíble máscara de Velociraptor Blue, uno de los dinosaurios más icónicos de Jurassic World!
+                Con su diseño detallado, esta máscara captura la agilidad y ferocidad de Blue, quien se ha ganado un lugar en los corazones de los fans de la saga.</p>
+               <ul>
+                    <li>Diseño impresionante</li>
+                    <li>Comodidad y estilo</li>
+                    <li>Ajuste perfecto</li>
+                    <li>Ideal para fans</li>
+               </ul>
+               <h3>RD$945</h3>
+               <button>¡Añadir al carrito🎁!</button>
+        </div>
+    </div>
+    <br>
+    <a href="mascaras.html"><button class="diseño"><b>⬅️Volver al catálogo</b></button></a>
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* Estilo de la barra de navegacion */
+.navbar {
+    display: flex;
+    background-color: none;
+}
+
+/* Estilo de los enlaces de la barra de navegacion */
+.navbar a {
+    color: white;
+    padding: 14px 45px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Cambiar el color cuando paso el mouse */
+.navbar a:hover {
+    background-color:#35a8e0;
+    color: #04275b;
+}
+
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #5900ff;
+}
+
+
+@media screen and (max-width: 700px) {
+    .row,
+    .navbar {
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peluche de Pteranodon</title>
+    <link rel="icon" href="img/JT Icono.png">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .contenedor {
+            display: flex;
+            align-items: flex-start; 
+            justify-content: flex-start; 
+        }
+
+        .imagen {
+            margin-right: 20px; 
+        }
+
+        .texto {
+            text-align: left; 
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            background-color: none;
+            padding: 10px 20px;
+        }
+
+        /* Estilo para el logo */
+        .logo img {
+            width: 100px; 
+            height: auto;
+        }
+
+        /* Estilo de la barra de navegacion */
+        .navbar {
+            display: flex;
+            background-color: none;
+            gap: 20px;
+        }
+
+        /* Estilo de los enlaces de la barra de navegacion */
+        .navbar a {
+            color: white;
+            padding: 14px 45px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 16px;
+            padding: 8px 45px;
+        }
+
+        /* Cambiar el color cuando paso el mouse */
+        .navbar a:hover {
+            background-color: #35a8e0;
+            color: #04275b;
+        }
+
+        .diseño {
+            background-color: cyan;
+            height: 50px;
+            width: auto;
+            border-radius: 100px;
+        }
+
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <br>
+    <nav>
+        <div class="logo">
+            <img src="img/JT Icono.png" usemap="#image-map">
+
+            <map name="image-map">
+                <area target="" alt="Logo" title="Logo" href="index.html" coords="28,29,459,463" shape="rect">
+            </map>
+        </div>
+
+        <div class="navbar">
+            <b><a href="index.html">Inicio</a></b>
+            <b><a href="figuras.html">Figuras</a></b>
+            <b><a href="peluches.html">Peluches</a></b>
+            <b><a href="legos.html">Legos</a></b>
+            <b><a href="mascaras.html">Máscaras</a></b>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <div class="contenedor">
+        <img src="img/Imagenes/Peluche de Quetzalcoatlus 2.jpg" height="300" alt="Imagen" class="imagen">
+        <div class="texto">
+            <h1>Peluche Pteranodon Jurassic World de 25cm</h1>
+            <p>¡Para los fans de los dinosaurios voladores!
+                ¿Te gustaría tener un Pteranodon, uno de los dinosaurios voladores más impresionantes de Jurassic World, pero sin el peligro de que te lleve por los aires? 
+                ¡Te traigo el Peluche Pteranodon Jurassic World de 25 cm, y es todo lo que necesitas!</p>
+               <ul>
+                    <li>Tamaño ideal</li>
+                    <li>Material suave y de calidad</li>
+                    <li>Suavidad y calidad</li>
+                    <li>Perfecto para todas las edades</li>
+               </ul>
+               <h3> RD$1,300</h3>
+               <button>¡Añadir al carrito🎁!</button>
+        </div>
+    </div>
+    <br>
+    <a href="peluches.html"><button class="diseño"><b>⬅️Volver al catálogo</b></button></a>
+</body>
+</html>
